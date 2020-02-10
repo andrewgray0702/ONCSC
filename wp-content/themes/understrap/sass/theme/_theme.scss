@@ -1,0 +1,272 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+html {
+    margin-top: 10px !important; 
+}
+#main-menu{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+#main-menu li, #main-menu a{
+    font-size: 18px;
+    color: #ffffff
+}
+.ag-nav-left{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+.ag-nav-right{
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+}
+.ag-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ffffff;
+}
+.ag-nav-container{
+    background-color: transparent;
+    z-index: 99;
+}
+.ag-nav-logo{
+    font-size: 48px;
+    color: #ffffff
+}
+.main-menu-spacer{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ag-hero{
+    position: relative;
+    top: -140px;
+    z-index: -1;
+}
+.ag-row{
+    position: relative;
+    top: -140px;
+}
+.ag-intro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5% 5%;
+}
+.ag-intro-container h5{
+    padding-top: 2.5%;
+}
+.ag-2-col{
+    display: flex;
+    padding: 1% 10%;
+    padding-bottom: 0;
+    justify-content: space-between;
+}
+.ag-left-col, .ag-right-col{
+    max-width: 45%;
+}
+.ag-home-cta-container{
+    background-color: #E6E6E6;
+    display: flex;
+    padding: 2.5% 7.5%;
+}
+.ag-home-cta-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5%;
+    text-align: center;
+    width: 33%;
+}
+.ag-home-cta-item a{
+    color: #157CBF;
+    text-decoration: underline;
+}
+.ag-home-cta-container .ag-home-cta-item:first-child{
+    border-right: 1px solid #000000;
+}
+.ag-home-cta-container .ag-home-cta-item:last-child{
+    border-left: 1px solid #000000;
+}
+.ag-home-directions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2.5% 5%;
+}
+.ag-home-googlemaps iframe{
+    width: 100%;
+}
+.ag-footer{
+    margin-top: -140px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F1F1F;
+    color: #ffffff;
+}
+.ag-footer-middle{
+    display: flex;
+}
+.ag-footer-bottom{
+    text-align: center;
+    padding: 10px;
+}
+.ag-footer-bottom span{
+    font-size: 12px;
+}
+.ag-footer-col{
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ag-footer-col-1 ul{
+    list-style: none;
+}
+.ag-footer-col-1 li{
+    font-weight: 700;
+}
+.ag-footer-top{
+    display: flex;
+    margin-bottom: 5%;
+}
+.ag-footer-color-bar{
+    width: 33%;
+    height: 25px;
+}
+.ag-footer-color-bar-1{
+    background-color: #0071BC;
+}
+.ag-footer-color-bar-2{
+    background-color: #B3B3B3;
+}
+.ag-footer-color-bar-2{
+    background-color: #4D4D4D;
+}
+.ag-footer-col span:first-child{
+    font-weight: 700;
+    font-size: 18px;
+}
+.ag-home-directions p{
+    font-size: 18px;
+}
+.ag-home-directions p:first-child{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0071BC;
+}
+.ag-hero-events{
+    background: url('/wp-content/uploads/2020/02/OmahaCemetery1.jpg');
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.page-php-wrapper{
+    margin-top: -150px;
+}
+.page-php-wrapper h1{
+    text-align: center;
+}
+.ag-hero-events h1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    color: #fff;
+    font-size: 3rem;
+}
+.ag-dark-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+}
+.ag-row-picture-left{
+    width: 55%;
+    background-color: #E6E6E6;
+    padding-left: 10%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-right: 5%;
+}
+.ag-row-picture-right{
+    background: url('/wp-content/uploads/2019/10/11541.jpeg');
+    width: 45%;
+    background-position: center;
+    background-size: cover;
+}
+.ag-about-intro{
+    text-align: center;
+    padding: 2.5% 10%;
+}
+.ag-about-2-col{
+    text-align: center;
+}
+.ag-about-picture-row{
+    display: flex;
+}
+.ag-row-picture-left h3{
+    color: #0071BC;
+}
+.ag-about-outro{
+    padding: 5% 10%;
+}
+.ag-volunteer-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5% 10%;
+}
+.ag-volunteer-button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 10%;
+    background-color: #E6E6E6;
+}
+.ag-volunteer-button{
+    background-color: #0071BC;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.ag-volunteer-outro{
+    padding: 5% 10%;
+}
+.ag-other-links-intro{
+    text-align: center;
+    padding: 5% 25%;
+}
+.ag-other-link-button{
+    background-color: #0071bc;
+    color: #fff;
+    border: none;
+    padding: 5px 40px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.ag-other-links-body{
+    display: flex;
+    margin-bottom: 5%;
+}
+.ag-other-links-body-right, .ag-other-links-body-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.ag-other-links-body-left .ag-other-link-button{
+    margin-top: 2.5%;
+    margin-right: 2.5%;
+    margin-left: 25%;
+}
+.ag-other-links-body-right .ag-other-link-button{
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 25%;
+}

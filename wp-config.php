@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'wp' );
 
 /** MySQL database username */
-define( 'DB_USER', 'wp_admin' );
+define( 'DB_USER', 'agray' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'Xxx1111xxx' );
+define( 'DB_PASSWORD', 'password' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'Omaha national cemetery support committee' );
-define( 'SECURE_AUTH_KEY',  'Omaha national cemetery support committee' );
-define( 'LOGGED_IN_KEY',    'Omaha national cemetery support committee' );
-define( 'NONCE_KEY',        'Omaha national cemetery support committee' );
-define( 'AUTH_SALT',        'Omaha national cemetery support committee' );
-define( 'SECURE_AUTH_SALT', 'Omaha national cemetery support committee' );
-define( 'LOGGED_IN_SALT',   'Omaha national cemetery support committee' );
-define( 'NONCE_SALT',       'Omaha national cemetery support committee' );
+define('AUTH_KEY',         'ZRw>)CoSc xjhhI-l[1{O)#y4YfJ2{B|6dKIk3)6DXKQ)p-ks]bDCUg#Q5N-W]tC');
+define('SECURE_AUTH_KEY',  'Cn2NAAB(ulq%0OwyjMrCx#>1|4,Cn7XwY/{i]MYxlE*B@,| !KbPN(rY|aQ*LyH7');
+define('LOGGED_IN_KEY',    'WI~w,pErkLLG/t6_z)f`n>I3w5H5@r8CF4MIL%+ak[.a !!iv8HI8iU+0l>k5t P');
+define('NONCE_KEY',        '9B+h`po0z}ufbd3|b2OZdE:_CJ}[WQOJFpA$K+>MA@~x#)m=zSm8xah7<BjhB1$T');
+define('AUTH_SALT',        'sN~n!4!V>o=H67Xxiv~Xx6v%[5NX Por/~zJ5s.At&@%JVH4YAPa;Q@[.5XiDq7 ');
+define('SECURE_AUTH_SALT', '!ZFMBcEWMslV5tyLm|N_VAwlOk|daG-k-9=Y6yXGCnPVwU:{jAz9(<vQ|!W?$Nhl');
+define('LOGGED_IN_SALT',   'u!+%F(why]+u6pA?whyoB(c+~4Ku)brr#3 K;^u2VZL?HeRVRIH6vK5BR{uX]4u*');
+define('NONCE_SALT',       '{`r<,.HYpd*1<1#l:zm&v%?B9`p;ejYyirj-Vh#)NARQI6pc0Ulo?=]a{y@:2]<g');
 
 /**#@-*/
 
