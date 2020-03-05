@@ -28,19 +28,19 @@ get_header();
     </div>
     <div class="ag-row ag-home-cta-container">
         <div class="ag-home-cta-item">
-            <img src=""/>
+            <img src="/wp-content//uploads/2020/03/Volunteer-01.png"/>
             <h3>Volunteer</h3>
             <p>Learn how you can help volunteer with the ONCSC.<p>
             <a href="/volunteer">Learn More</a>
         </div>
         <div class="ag-home-cta-item">
-            <img src=""/>
+            <img src="/wp-content/uploads/2020/03/Calendar-01.png"/>
             <h3>Calendar</h3>
             <p>View upcoming events and meetings with ONCSC.<p>
             <a href="/events/">Learn More</a>
         </div>
         <div class="ag-home-cta-item">
-            <img src=""/>
+            <img src="/wp-content/uploads/2020/03/Links-01.png"/>
             <h3>Helpful Links</h3>
             <p>National Cemetery and Omaha National Cemetery related links. <p>
             <a href='/other-links/'>Learn More</a>

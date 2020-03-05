@@ -1,4 +1,7 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+*{
+    font-family: 'Roboto Slab', serif;
+}
 html {
     margin-top: 10px !important; 
 }
@@ -235,6 +238,7 @@ html {
     padding: 10px 25px;
     border-radius: 5px;
     font-size: 18px;
+    margin-top: 25px;
 }
 .ag-volunteer-outro{
     padding: 5% 10%;
@@ -269,4 +273,20 @@ html {
     margin-top: 2.5%;
     margin-left: 2.5%;
     margin-right: 25%;
+}
+.ag-home-cta-item img{
+    max-width: 40%;
+    margin-bottom: 25px;
+}
+.ag-contact-form{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+.wpcf7-submit{
+    width: 30% !important;
+    margin-left: 70% !important;
+    background-color: #0071BC !important;
+    border: 1px solid #0071BC !important;
+    color: #ffffff !important;
+    font-size: 18px !important;
 }

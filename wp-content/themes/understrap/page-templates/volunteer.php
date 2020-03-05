@@ -37,6 +37,9 @@ you to finish the badge process.</p>
 https://www.trackitforward.com/site/omaha-national-cemetery-support-committee to select dates and times to volunteer.</p>
             <p><strong>**NOTE:</strong> Any Omaha National Cemetery (ONC) VA Volunteer who wishes to be eligible to drive a VA golf cart on the ONC grounds must read and sign, in person at the ONC office, a Volunteers
 Requirements for Driving Golf Carts memo. The previous requirement to have a VA DOT physical has been rescinded.</p>
+        <div class="ag-contact-form">
+            <?php echo do_shortcode('[contact-form-7 id="73" title="Contact form 1"]'); ?>
+        </div>
     </div>
 </div>
 <?php
